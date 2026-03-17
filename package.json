@@ -9,7 +9,9 @@
     "test": "cd scripts && npm test",
     "test:skills": "cd tests && npm test --",
     "test:skills:integration": "cd tests && npm run test:integration --",
-    "postinstall": "cd scripts && npm install"
+    "postinstall": "cd scripts && npm install",
+    "dashboard:collect": "cd scripts && npm run dashboard:collect",
+    "dashboard": "cd scripts && npm run dashboard"
   },
   "engines": {
     "node": ">=18.0.0"
